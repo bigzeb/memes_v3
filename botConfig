@@ -1,0 +1,6 @@
+var botConfig = { token:'a4b3ea7071650133904723e55de21f7a',
+                  group:'19753954',
+                  name:'meme-o-tron',
+                  url:'https://memesv2.herokuapp.com/' };
+var bot = require('fancy-groupme-bot');
+var myBot = bot(botConfig);
